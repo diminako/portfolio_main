@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+}
+
+img {
+    height: 300px;
+    border-radius: 80%;
+}
+
+
+
+#mainColumns {
+    background-color: gainsboro;
+}
+
+a {
+    color: gainsboro;
+}
+
+a:hover {
+    color: snow;
+    text-decoration: underline;
+}
+
+.leftAside {
+    width: 50%;
+}
+
+.rightAside {
+    width: 50%;
+}
+
+#navDiv {
+    background-color: darkslategrey;
+}
+
+#navPortContact {
+    color: gainsboro;
+    font-size: 30px;
+    margin-right: 3%;
+}
+
+#navBrand {
+    color: gainsboro;
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+#contactSpan {
+    margin-right: 3%;
+}
+
+#portfolioSpan {
+    margin-right: 3%;
+}
