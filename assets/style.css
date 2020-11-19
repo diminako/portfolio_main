@@ -7,8 +7,11 @@
 
 
 body {
-    margin: 0 10px 0 10px;
+    margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 section {
@@ -18,6 +21,16 @@ section {
 #sectionContent {
     color: #f0f2eb;
 
+}
+
+#portContainer {
+    /* height: 300px; */
+    background-color: #b5592a;
+    width: 100%;
+}
+
+#portHead {
+    color: #f0f2eb;
 }
 
 #navLinks {
@@ -35,11 +48,13 @@ section {
     color: #f0f2eb;
 }
 
-#portfolioContainer {
+/* #portfolioContainer {
     height: 40px;
+
     background-color: #b5592a;
-}
+} */
 #backgroundIMG {
+    margin: 0 10px 0 10px;
     background-image:     linear-gradient(
         #8cbeaab0, 
         #b5592ab0)
@@ -49,6 +64,7 @@ section {
         background-attachment: fixed;
         background-size:  cover;
         background-color: #999;
+        flex: 1
 }
 
 #headerBtns {
@@ -70,5 +86,14 @@ section {
 }
 
 #profileIMG {
+    margin: auto;
     height: 300px;
+    width: 300px;
+}
+footer{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

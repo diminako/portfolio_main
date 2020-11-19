@@ -46,7 +46,7 @@
     </nav>
 
     <section class="section">
-        <div class="container">
+        <div class="container ">
             <div class="columns mt-6">
                 <div class="column is-half has-text-centered mt-6">
                     <h2 class="title is-3 m-6" id="sectionContent">Hello I'm Dimitri Nakos, <br> a
@@ -61,25 +61,30 @@
                         </div>
                     </div>
                 </div>
-                <div class="column">
-                    <img src="./assets/profile.png" alt="Dimitri Profile Pic" id="profileIMG">
+                <div class="column has-content-centered">
+                    <figure class="image container is-256x256">
+
+                        <img src="./assets/profile.png" alt="Dimitri Profile Pic" id="profileIMG">
+                    </figure>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <article id="portfolioContainer">
-        <div class="container">
-            Portfolio
-            <div class="columns">
-                <div class="column"></div>
-                <div class="column"></div>
-                <div class="column"></div>
+    <article id="portfolioContainer" class="pt-1">
+        <div class="container .is-fullhd px-2" id="portContainer">
+            <h2 class="title is-2" id="portHead">Portfolio</h2>
+            <div class="columns is-full mb-0">
+
             </div>
         </div>
     </article>
 
+</div>
+<footer>
+    <h3>test</h3>
+</footer>
 
 
 
@@ -106,9 +111,7 @@
 
 
 
-
-
-    <!-- <nav class="navbar is-flex-mobile" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar is-flex-mobile" role="navigation" aria-label="main navigation">
     <div>
         
         <h1 class="title is-1" id="headerBrand">DN</h1>
@@ -131,7 +134,6 @@
 
 
 
-</div>
 
 <script src="./assets/script.js"></script>
 </body>
