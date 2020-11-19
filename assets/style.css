@@ -11,10 +11,18 @@ body {
     padding: 0;
 }
 
-main {
-    height: 1000px;
-    background-image: url('./portfolioBG.jpg');
-    background-size: cover;
+section {
+    height: 700px;
+}
+
+#sectionContent {
+    color: #f0f2eb;
+
+}
+
+#navLinks {
+    background-color: #8cbeaa00;
+    float: right;
 }
 
 .navbar {
@@ -23,20 +31,32 @@ main {
     position: relative;
 }
 
-.backgroundIMG {
+#backgroundIMG {
+    background-image:     linear-gradient(
+        #8cbeaab0, 
+        #b5592ab0)
+        , url('./portfolioBG.jpg');
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size:  cover;
+        background-color: #999;
 }
 
-#headerBtn {
+#headerBtns {
     background-color: #f0f2eb;
 }
 
-#headerBrand {
+#headerH1 {
     color: #f0f2eb;
     text-decoration: underline;
-    margin: 0;
-    margin-left: 2%;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+
+}
+
+.leftDiv {
+    width: 100%;
+}
+
+.rightDiv {
+ width: 100%;
 }
