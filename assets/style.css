@@ -1,55 +1,42 @@
+/* 
+#f0f2eb  light greyish
+#b5592a clay
+#f09027 bright clay
+#8cbeaa  grey blue
+*/
+
+
 body {
-    margin: 0 auto;
+    margin: 0 10px 0 10px;
+    padding: 0;
 }
 
-img {
-    height: 300px;
-    border-radius: 80%;
+main {
+    height: 1000px;
+    background-image: url('./portfolioBG.jpg');
+    background-size: cover;
 }
 
-
-
-#mainColumns {
-    background-color: gainsboro;
+.navbar {
+    width:100%;
+    background-color: #8cbeaa;
+    position: relative;
 }
 
-a {
-    color: gainsboro;
+.backgroundIMG {
 }
 
-a:hover {
-    color: snow;
+#headerBtn {
+    background-color: #f0f2eb;
+}
+
+#headerBrand {
+    color: #f0f2eb;
     text-decoration: underline;
-}
-
-.leftAside {
-    width: 50%;
-}
-
-.rightAside {
-    width: 50%;
-}
-
-#navDiv {
-    background-color: darkslategrey;
-}
-
-#navPortContact {
-    color: gainsboro;
-    font-size: 30px;
-    margin-right: 3%;
-}
-
-#navBrand {
-    color: gainsboro;
-    font-size: 30px;
-    margin-left: 3%;
-}
-
-#contactSpan {
-    margin-right: 3%;
-}
-
-#portfolioSpan {
-    margin-right: 3%;
+    margin: 0;
+    margin-left: 2%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
