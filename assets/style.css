@@ -18,9 +18,19 @@ section {
     height: 800px;
 }
 
+.messageBackground {
+    background-color: #8cbeaaab;
+}
+
 #sectionContent {
     color: #f0f2eb;
 
+}
+
+.messageBoxBackground {
+    background-color: #00000000;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 #portContainer {
@@ -40,7 +50,7 @@ section {
 
 .navbar {
     width:100%;
-    background-color: #8cbeaa;
+    background-color: #8cbeaaab;
     position: relative;
 }
 
@@ -48,11 +58,10 @@ section {
     color: #f0f2eb;
 }
 
-/* #portfolioContainer {
-    height: 40px;
+#portfolioContainer {
+    color: #f0f2eb;
+}
 
-    background-color: #b5592a;
-} */
 #backgroundIMG {
     margin: 0 10px 0 10px;
     background-image:     linear-gradient(
@@ -77,20 +86,15 @@ section {
 
 }
 
-.leftDiv {
-    width: 100%;
-}
-
-.rightDiv {
- width: 100%;
-}
-
 #profileIMG {
     margin: auto;
     height: 300px;
     width: 300px;
 }
+
 footer{
+    margin: 0 10px 0 10px;
+    background-color: #b5592a;
     height: 60px;
     display: flex;
     flex-direction: column;

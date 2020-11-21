@@ -1,38 +1,32 @@
 //  mobile menu
 var projects = [
     {
-        name: "something",
-        url: "https://www.google.com",
-        image: "https://via.placeholder.com/150",
-        github: "https://www.google.com"
+        name: "Trail Weather Tracker",
+        url: "https://diminako.github.io/trail-weather-tracker/",
+        image: "https://raw.githubusercontent.com/diminako/trail-weather-tracker/main/assets/screenshot.png",
+        github: "https://github.com/diminako/trail-weather-tracker",
+        pitch: "An App utilizing API's to provide local hiking trails and weather."
     },
     {
-        name: "something",
-        url: "https://www.google.com",
-        image: "https://via.placeholder.com/150",
-        github: "https://www.google.com"
+        name: "Work Day Planner",
+        url: "https://diminako.github.io/day-planner/",
+        image: "https://raw.githubusercontent.com/diminako/day-planner/main/assets/screenshot.png",
+        github: "https://github.com/diminako/day-planner",
+        pitch: "A daily scheduler using local storage and time management."
     },
     {
-        name: "something",
-        url: "https://www.google.com",
-        image: "https://via.placeholder.com/150",
-        github: "https://www.google.com"
+        name: "Do You Know JS?!",
+        url: "https://diminako.github.io/do-you-know-javascript/",
+        image: "https://raw.githubusercontent.com/diminako/do-you-know-javascript/main/assets/screenshot.png",
+        github: "https://github.com/diminako/do-you-know-javascript",
+        pitch: "A fun and quick JavaScript game to test your JS knowledge created with JS logic."
     }, {
-        name: "something",
-        url: "https://www.google.com",
-        image: "https://via.placeholder.com/150",
-        github: "https://www.google.com"
-    }, {
-        name: "something",
-        url: "https://www.google.com",
-        image: "https://via.placeholder.com/150",
-        github: "https://www.google.com"
-    }, {
-        name: "something",
-        url: "https://www.google.com",
-        image: "https://via.placeholder.com/150",
-        github: "https://www.google.com"
-    },
+        name: "Weather Dashboard",
+        url: "https://diminako.github.io/weather_dashboard/",
+        image: "https://raw.githubusercontent.com/diminako/weather_dashboard/main/assets/images/screenshot.png",
+        github: "https://github.com/diminako/weather_dashboard",
+        pitch: "A weather forecast App generated using Open Weather API."
+    }
 ]
 var burgerIcon = document.querySelector("#burgerIcon");
 var navbarMenu = document.getElementById("navLinks")
@@ -42,12 +36,12 @@ burgerIcon.addEventListener("click", () => {
 });
 
 for (let i = 0; i < projects.length; i++) {
-    var messageBox = $("<article class='message'>")
+    var messageBox = $("<article class='message messageBoxBackground'>")
     var upperBox = $("<div class='message-header'  data-project='proj_" + i + "' id='project_" + projects[i].name + "'>")
     var pUpperBox = $("<p>" + projects[i].name + "</p>")
-    var btnUpperBox = $("<button><a href='" + projects[i].url + "'><i class='fab fa-github'></i></a></button>")
-    var lowerBox = $("<div class='message-body'>FILL IN WITH IMG</div>")
-    var pLowerBox = $("<p>One Sentence Description</p>")
+    var btnUpperBox = $("<a href='" + projects[i].url + "' rel='noopener'><button><i class='fab fa-github'></i></button></a>")
+    var lowerBox = $("<div class='message-body messageBackground'><img src='" + projects[i].image + "' width='200' height='200'></img></div>")
+    var pLowerBox = $("<p>" + projects[i].pitch + "</p>")
 
 
 
