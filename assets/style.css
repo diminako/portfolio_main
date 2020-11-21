@@ -108,11 +108,16 @@ footer{
     justify-content: center;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
   
     /* CSS */
+    #portContainer {
+        margin-top: 50px;
+    }
+
     .messageBoxBackground {
         margin: auto;
+        margin-top: 50px;
         flex-wrap: wrap;
         width: 70%;
     }
