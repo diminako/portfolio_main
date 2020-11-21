@@ -36,25 +36,19 @@ burgerIcon.addEventListener("click", () => {
 });
 
 for (let i = 0; i < projects.length; i++) {
-    var messageBox = $("<article class='message messageBoxBackground'>")
-    var upperBox = $("<div class='message-header'  data-project='proj_" + i + "' id='project_" + projects[i].name + "'>")
-    var pUpperBox = $("<p>" + projects[i].name + "</p>")
-    var btnUpperBox = $("<a href='" + projects[i].url + "' rel='noopener'><button><i class='fab fa-github'></i></button></a>")
-    var lowerBox = $("<div class='message-body messageBackground'><img src='" + projects[i].image + "' width='200' height='200'></img></div>")
-    var pLowerBox = $("<p>" + projects[i].pitch + "</p>")
+    var messageBox = $("<article class='message messageBoxBackground'>");
+    var upperBox = $("<div class='message-header'  data-project='proj_" + i + "' id='project_" + projects[i].name + "'>");
+    var pUpperBox = $("<p>" + projects[i].name + "</p>");
+    var btnUpperBox = $("<a href='" + projects[i].url + "' rel='noopener'><button><i class='fab fa-github'></i></button></a>");
+    var lowerBox = $("<div class='message-body messageBackground'><a href='" + projects[i].github + "' rel='noopener'><img src='" + projects[i].image + "' width='200' height='200'></img></a></div>");
+    var pLowerBox = $("<p class='pColor'><strong>" + projects[i].pitch + "</strong></p>");
 
 
 
-    $("#portCardBox").append(messageBox)
-    messageBox.append(upperBox)
-    upperBox.append(pUpperBox)
-    upperBox.append(btnUpperBox)
-    messageBox.append(lowerBox)
-    lowerBox.append(pLowerBox)
-
-
-}
-
-const generatePortfolio = () => {
-
+    $("#portCardBox").append(messageBox);
+    messageBox.append(upperBox);
+    upperBox.append(pUpperBox);
+    upperBox.append(btnUpperBox);
+    messageBox.append(lowerBox);
+    lowerBox.append(pLowerBox);
 }

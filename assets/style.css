@@ -31,7 +31,9 @@ section {
     background-color: #00000000;
     margin: auto;
     flex-wrap: wrap;
+    width: 20%;
 }
+
 
 #portContainer {
     /* height: 300px; */
@@ -54,6 +56,9 @@ section {
     position: relative;
 }
 
+.pColor {
+    color: #f0f2eb;
+}
 #sectionSub {
     color: #f0f2eb;
 }
@@ -101,3 +106,13 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+    /* CSS */
+    .messageBoxBackground {
+        margin: auto;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+  }
