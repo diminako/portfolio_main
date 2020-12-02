@@ -5,7 +5,7 @@ flair and as a way to test some scalability with my growing projects.
 And tested my skills in trying out a new CSS framework.  Bulma.
 
 ## Link to Webpage
-[Updated Portfolio!](https://github.com/diminako/portfolio_updated)
+[Updated Portfolio!](https://diminako.github.io/portfolio_updated/)
 
 ## Screen Shot of the web app
 
