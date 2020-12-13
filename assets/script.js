@@ -1,6 +1,13 @@
 //  mobile menu
 var projects = [
     {
+        name: "Retro Games Backlog",
+        url: "https://cryptic-reaches-66396.herokuapp.com/",
+        image: "https://raw.githubusercontent.com/diminako/retro_backlog/main/public/assets/images/screenshot.png",
+        github: "https://github.com/diminako/retro_backlog",
+        pitch: "A Full Stack Application utilizing mysql, node.js, and JavaScript."
+    },
+    {
         name: "Trail Weather Tracker",
         url: "https://diminako.github.io/trail-weather-tracker/",
         image: "https://raw.githubusercontent.com/diminako/trail-weather-tracker/main/assets/screenshot.png",
@@ -14,13 +21,14 @@ var projects = [
         github: "https://github.com/diminako/day-planner",
         pitch: "A daily scheduler using local storage and time management."
     },
+    // {
+    //     name: "Do You Know JS?!",
+    //     url: "https://diminako.github.io/do-you-know-javascript/",
+    //     image: "https://raw.githubusercontent.com/diminako/do-you-know-javascript/main/assets/screenshot.png",
+    //     github: "https://github.com/diminako/do-you-know-javascript",
+    //     pitch: "A fun and quick JavaScript game to test your JS knowledge created with JS logic."
+    // },
     {
-        name: "Do You Know JS?!",
-        url: "https://diminako.github.io/do-you-know-javascript/",
-        image: "https://raw.githubusercontent.com/diminako/do-you-know-javascript/main/assets/screenshot.png",
-        github: "https://github.com/diminako/do-you-know-javascript",
-        pitch: "A fun and quick JavaScript game to test your JS knowledge created with JS logic."
-    }, {
         name: "Weather Dashboard",
         url: "https://diminako.github.io/weather_dashboard/",
         image: "https://raw.githubusercontent.com/diminako/weather_dashboard/main/assets/images/screenshot.png",

@@ -5,7 +5,6 @@
 #8cbeaa  grey blue
 */
 
-
 body {
     margin: 0;
     padding: 0;
@@ -19,9 +18,6 @@ section {
     margin-bottom: 100px;
 }
 
-.messageBackground {
-    background-color: #8cbeaaab;
-}
 
 #sectionContent {
     color: #f0f2eb;
@@ -29,21 +25,16 @@ section {
 }
 
 .messageBoxBackground {
-    background-color: #00000000;
-    margin: auto;
+    height: 270px;
+    background-color:  #8cbeaa96;
+    margin-inline: auto;
     flex-wrap: wrap;
     width: 20%;
 }
 
-
 #portContainer {
-    /* height: 300px; */
     background-color: #b5582a71;
     width: 100%;
-}
-
-#portHead {
-    color: #f0f2eb;
 }
 
 #navLinks {
@@ -57,14 +48,7 @@ section {
     position: relative;
 }
 
-.pColor {
-    color: #f0f2eb;
-}
 #sectionSub {
-    color: #f0f2eb;
-}
-
-#portfolioContainer {
     color: #f0f2eb;
 }
 
@@ -109,8 +93,7 @@ footer{
 }
 
 @media (min-width: 200px) and (max-width: 767px) {
-  
-    /* CSS */
+
     #portContainer {
         margin-top: 50px;
     }
